@@ -47,8 +47,8 @@ numeros2.forEach(function(numero){
 /**  Ordena el nuevo arreglo 1  de forma ascendente **/
 
 // Ordenar Array 1- Metodo Burbuja
-for(i = 0; i < 5; i++){
-    for(j = 0; j < 5; j++){  
+for(i = 0; i < numeros1.length; i++){
+    for(j = 0; j < numeros1.length; j++){  
         if(numeros1[j] > numeros1[j+1]){
             let aux = numeros1[j];
             numeros1[j] = numeros1[j+1];
